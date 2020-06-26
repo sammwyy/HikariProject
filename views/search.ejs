@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Hikari - Results of <%=search_query%></title>
+    <link rel="stylesheet" href="/css/app.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="search-ui">
+        <img class="logo-sm" src="https://cdn.glitch.com/b52b37d1-91cc-47b8-8606-b516f0e7310c%2F512.png?v=1593135418216">
+        <input type="text" placeholder="what do you want to search?" class="search-input-brand" id="search-input" value="<%=search_query%>">
+        <button class="btn" onclick="search();">Search</button>
+      </div>
+      
+      <span class="text-results">Results of: <%=search_query%></span>
+      
+      <div id="results"></div>
+    </div>
+    
+    <script src="/js/app.js"></script>
+    <script>
+      let query = "<%=search_query%>";
+      initSearch(query);
+    </script>
+  </body>     
+</html>

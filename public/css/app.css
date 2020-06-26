@@ -1,0 +1,110 @@
+body {
+  background-color: #1D1D1D;
+  font-family: arial;
+}
+
+.welcome-ui {
+  text-align: center;
+  margin: 8% auto;
+  width: 70%;
+}
+
+.title {
+  color: white;
+  font-size: 45px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo-sm {
+  width: 50px;
+  position: absolute;
+}
+
+.buttons-ui {
+  margin-top: 20px;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 15px;
+  border: none;
+  background-color: #2D2D2D;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  border: none;
+  outline: none;
+}
+
+#search-input {
+  background-color: #2D2D2D;
+  border: none;
+  width: 500px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 25px;
+  color: white;
+}
+
+.search-input-brand {
+  margin-left: 55px;
+}
+
+#search-input:focus {
+  border: none;
+  outline: none;
+}
+
+.container {
+  margin: 40px;
+  color: white;
+}
+
+.brand {
+  color: white;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.text-results{
+  color: #AAA;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.result {
+  margin: 50px 0;
+}
+
+.result-title {
+  display: block;
+  font-size: 21px;
+  color: white;
+}
+
+.result-url {
+  color: #DDD;
+  font-size: 15px;
+}
+
+.result-description {
+  width: 40%;
+  color: #BBB;
+}
+
+.web-badges {
+  display: inline-block;
+}
+
+.badge {
+  height: 15px;
+  margin: 0 5px;
+}
